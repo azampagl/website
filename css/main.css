@@ -1,13 +1,22 @@
 .bg-alt {
   background-color: #FAFAFA;
 }
+#education h4,
+#projects h4 {
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
 #education h4 {
   height: 90px;
-  width: 100%;
-  display: table-cell;
-  text-align: center;
-  vertical-align: middle;
 }
 #education p {
   font-size: .9em;
+}
+#projects h4 {
+  height: 70px;
+}
+#projects p {
+  text-align: justify;
+  font-size: 0.8em;
 }
