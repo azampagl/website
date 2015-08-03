@@ -7,15 +7,24 @@
 
 #education, #projects {
   h4 {
-    text-align: center;
+    /*text-align: center;
     display: table-cell;
-    vertical-align: middle;
+    vertical-align: middle;*/
   }
 }
 
 #education {
+  .col-lg-2 {
+    text-align: center;
+  }
   h4 {
-    height: 90px;
+    height: 70px;
+  }
+  h4.one-line {
+    padding-top: 19px;
+  }
+  h4.two-line {
+    padding-top: 9px;
   }
   p {
     font-size: .9em;
@@ -23,11 +32,28 @@
 }
 
 #projects {
+  .col-lg-3, .col-lg-4 {
+    text-align: center;
+    padding-bottom: 30px;
+  }
   h4 {
-    height: 70px;
+    height: 50px;
+  }
+  h4.one-line {
+    padding-top: 10px;
   }
   p {
+    height: 110px;
     text-align: justify;
     font-size: 0.8em;
+  }
+}
+
+#career {
+  h2 {
+    padding-top: 100px;
+  }
+  hr.primary {
+    padding-bottom: 30px;
   }
 }

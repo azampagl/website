@@ -3,20 +3,44 @@
 }
 #education h4,
 #projects h4 {
+  /*text-align: center;
+    display: table-cell;
+    vertical-align: middle;*/
+}
+#education .col-lg-2 {
   text-align: center;
-  display: table-cell;
-  vertical-align: middle;
 }
 #education h4 {
-  height: 90px;
+  height: 70px;
+}
+#education h4.one-line {
+  padding-top: 19px;
+}
+#education h4.two-line {
+  padding-top: 9px;
 }
 #education p {
   font-size: .9em;
 }
+#projects .col-lg-3,
+#projects .col-lg-4 {
+  text-align: center;
+  padding-bottom: 30px;
+}
 #projects h4 {
-  height: 70px;
+  height: 50px;
+}
+#projects h4.one-line {
+  padding-top: 10px;
 }
 #projects p {
+  height: 110px;
   text-align: justify;
   font-size: 0.8em;
+}
+#career h2 {
+  padding-top: 100px;
+}
+#career hr.primary {
+  padding-bottom: 30px;
 }
