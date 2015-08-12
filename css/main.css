@@ -1,13 +1,7 @@
 .bg-alt {
   background-color: #FAFAFA;
 }
-#education h4,
-#projects h4 {
-  /*text-align: center;
-    display: table-cell;
-    vertical-align: middle;*/
-}
-#education .col-lg-2 {
+#education .col-md-2 {
   text-align: center;
 }
 #education h4 {
@@ -28,8 +22,8 @@
 #career hr.primary {
   padding-bottom: 30px;
 }
-#projects .col-lg-3,
-#projects .col-lg-4 {
+#projects .col-md-3,
+#projects .col-md-4 {
   text-align: center;
   padding-bottom: 30px;
 }
@@ -37,14 +31,14 @@
   height: 50px;
 }
 #projects h4.one-line {
-  padding-top: 10px;
+  padding-top: 11px;
 }
 #projects p {
-  height: 110px;
   text-align: justify;
   font-size: 0.8em;
+  height: 130px;
 }
-#awards-and-certs .col-lg-4 {
+#awards-and-certs .col-md-4 {
   text-align: center;
 }
 #awards-and-certs h4 {
