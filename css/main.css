@@ -22,6 +22,12 @@
 #education p {
   font-size: .9em;
 }
+#career h2 {
+  padding-top: 100px;
+}
+#career hr.primary {
+  padding-bottom: 30px;
+}
 #projects .col-lg-3,
 #projects .col-lg-4 {
   text-align: center;
@@ -38,9 +44,18 @@
   text-align: justify;
   font-size: 0.8em;
 }
-#career h2 {
-  padding-top: 100px;
+#awards-and-certs .col-lg-4 {
+  text-align: center;
 }
-#career hr.primary {
-  padding-bottom: 30px;
+#awards-and-certs h4 {
+  height: 40px;
+}
+#awards-and-certs h4.one-line {
+  padding-top: 19px;
+}
+#awards-and-certs p {
+  font-size: .9em;
+}
+#timeline-embed h2 {
+  font-size: 0.5em;
 }
